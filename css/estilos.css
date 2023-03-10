@@ -1,22 +1,75 @@
-body
-{
+body {
+    background-color: #e5e5e5;
     color: #333;
+  }
+  
+  header {
+    background-color: rgb(206, 166, 151);
+    color: #6e6e6e;
+    margin: 0;
+  }
+  header h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 2em;
+    color: #fff;
     text-align: center;
-    font-family: "Arial";
-    font-size: 16px;
-    margin:0;
+    padding: 1em;
+  }
+  header nav ul {
+    list-style: style none;
     padding: 0;
-}
-#container
-{
- width: 70%;
- padding: 1em;
- text-align: left;
- border: 1px solid#DDD;
- margin: 0 auto;    
-}
-
-#container h1
-{
-    font: size 20px;
-}
+    margin: 0;
+  }
+  header nav ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+  }
+  header nav ul li a {
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+  }
+  header nav ul li a:hover {
+    color: #00b300;
+  }
+  
+  .contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .contenido h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5em;
+    color: blue;
+    margin-bottom: 20px;
+  }
+  .contenido p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    color: #333;
+  }
+  .contenido .boton {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5em;
+  }
+  .contenido .boton:hover {
+    background-color: #003400;
+  }
+  
+  footer {
+    background-color: #6e6e6e;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+  }/*# sourceMappingURL=estilos.css.map */
