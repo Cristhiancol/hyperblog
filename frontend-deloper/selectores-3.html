@@ -13,12 +13,23 @@
             color:#D4AC0D 
  ;
         }
+        p::before{
+            content:"🐍";
+
+        }
+        p::after{
+            content:"💣" ;
+
+        }
         p:hover{
             color:skyblue ;
 
         }
         div p:nth-child(2) {
             color: #B03A2E;
+        }
+        ::placeholder{
+            color: black;
         }
     </style>
 </head>
@@ -30,5 +41,6 @@
         <p>Viva el Rock</p>
 
     </div>
+    <input type="text" placeholder="Evento 18-03-2023">
 </body>
 </html>
